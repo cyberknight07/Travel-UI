@@ -8,7 +8,7 @@ import { FiSearch } from "react-icons/fi";
 
 const HeadImage = () => {
   return (
-    <div className='relative'>
+    <div className='relative w-full'>
         <img src={headpic} alt="headpic" className='w-full lg:h-96 md:h-[385px] sm:h-[285px]' />
         <div className='w-full m-4 flex justify-center '>
         <div className='w-3/4 container  absolute top-[20%]'>

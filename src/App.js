@@ -3,9 +3,10 @@ import './App.css';
 import Navbar from './components/Navbar';
 import HeadImage from './components/HeadImage';
 import SectionTwo from './components/SectionTwo';
+import Sectionthree from './components/Sectionthree';
 function App() {
   return (
-    <div >
+    <div className='w-full' >
   
 
 {/* Header Navbar */}
@@ -14,8 +15,8 @@ function App() {
 <HeadImage/>
 {/* Section 2 */}
 <SectionTwo/>
-{/* Body */}
-
+{/* Section 3 */}
+<Sectionthree title={'Inspiration for your next getaway'} data = {'We have curated some amazing experiences to help you find your next getaway.'}/>
 {/* Footer */}
       
       </div>
